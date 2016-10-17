@@ -1,0 +1,2 @@
+# PreferenceFragment_with_TabLayout_and_ViewPager
+Settings with Tab and ViewPager
