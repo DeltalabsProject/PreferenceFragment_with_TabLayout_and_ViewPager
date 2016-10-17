@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.flask.colorpicker.ColorPickerPreference
+        android:key="key_warna_primer"
+        android:title="Warna Primer"
+        app:alphaSlider="true"
+        android:summary="Pilih warna primer"
+        app:density="12"
+        app:initialColor="0xff3F51B5"
+        app:lightnessSlider="true"
+        />
+
+    <com.flask.colorpicker.ColorPickerPreference
+        android:key="key_warna_aksen"
+        android:title="Warna Aksen"
+        app:alphaSlider="true"
+        android:summary="Pilih warna aksen"
+        app:density="12"
+        app:initialColor="0x80ffffff"
+        app:lightnessSlider="true"
+        />
+</PreferenceScreen>

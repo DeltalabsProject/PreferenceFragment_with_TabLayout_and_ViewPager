@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:title="DELTALABS FACEBOOK"
+        android:summary="https://www.facebook.com/yoyocx">
+        <intent android:targetPackage="id.delta.settings" android:action="android.intent.action.VIEW" android:data="https://www.facebook.com/yoyocx"/>"
+
+    </Preference>
+
+    <Preference
+        android:title="DELTALABS TWITTER"
+        android:summary="https://twitter.com/Yoyocx">
+        <intent android:targetPackage="id.delta.settings" android:action="android.intent.action.VIEW" android:data="https://twitter.com/Yoyocx"/>"
+
+    </Preference>
+
+    <Preference
+        android:title="DELTALABS BLOG"
+        android:summary="http://d-codein.blogspot.co.id">
+        <intent android:targetPackage="id.delta.settings" android:action="android.intent.action.VIEW" android:data="http://d-codein.blogspot.co.id"/>"
+
+    </Preference>
+
+</PreferenceScreen>

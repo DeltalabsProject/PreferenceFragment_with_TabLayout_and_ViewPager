@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="key_tema"
+        android:title="Pilih Tema"
+        android:summary="%s"
+        android:defaultValue="0"
+        android:entryValues="@array/theme_values"
+        android:entries="@array/theme_labels"/>
+
+    <CheckBoxPreference
+        android:widgetLayout="@layout/widget_switch"
+        android:summaryOn="Aktif"
+        android:summaryOff="Nonaktif"
+        android:key="disable_dialog_key"
+        android:defaultValue="false"
+        android:title="Tampilkan Dialog Awal"/>
+</PreferenceScreen>
